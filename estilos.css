@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*SECCION DE NAV*/
+/*inserccion logo*/
+#logodavid{
+    background: url(./imagen/logo/logo2.png) no-repeat;
+    background-size: 125px 125px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin-left: 75%;
+}
+
+#textologo{
+    font-size: 25px;
+    color: rgb(76, 51, 81);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cab{
+    height: 195px;
+}
+.navlink{
+    padding-right: 5%;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+nav {
+    background-color: rgb(81, 186, 224);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+    z-index: 50;
+}
+/*SECCIONBODY DE LA PAGINA*/
+.intro{
+    background-color: rgb(83, 131, 148);
+    text-align: center;
+    padding-top: 21%;
+    min-height: 150px;
+    height: 200px;
+}
+.intro h1{
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.intro h3{
+    color: #fff;
+    padding-bottom: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+#contacto{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: blueviolet;
+    padding: 10px 45px;
+    border-radius: 20%;
+    letter-spacing: 1px;
+}
+#extra{
+    text-align: center;
+    background-color: rgb(247, 240, 240);
+    min-height: 200px;
+    height: 500px;
+}
+
+#extra h2{
+    font-size: 30px;
+    letter-spacing: 2px;
+
+}
+#cursivo{
+    font-style: italic;
+    color: rgb(52, 126, 195);
+    font-size: 35px;
+}
+
+.papapitufo{
+    padding: 10px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.papapitufo li{
+    list-style-type: none;
+}
+
+.papapitufo a{
+    text-decoration: none;
+}
